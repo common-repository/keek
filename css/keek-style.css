@@ -1,0 +1,27 @@
+/* Keek Embedding Style */
+iframe.keek-embedding{
+	max-width:100% !important;
+	border:0 !important;
+	padding:0 !important;
+	float:none !important;
+	display:block !important;
+}
+
+@media all and (max-width: 768px) and (min-width: 220px){
+	iframe.keek-embedding{
+		width:100% !important;
+		height:360px !important;
+	}
+}
+
+@media all and (max-width: 480px) and (min-width: 220px){
+	iframe.keek-embedding{
+		height:280px !important;
+	}
+}
+
+@media all and (max-width: 370px) and (min-width: 220px){
+	iframe.keek-embedding{
+		height:220px !important;
+	}
+}
